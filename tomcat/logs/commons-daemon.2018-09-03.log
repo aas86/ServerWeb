@@ -1,0 +1,33 @@
+[2018-09-03 14:16:15] [info]  [ 7924] Commons Daemon procrun (1.1.0.0 32-bit) started
+[2018-09-03 14:16:15] [info]  [ 7924] Service Tomcat9 name Apache Tomcat 9.0 Tomcat9
+[2018-09-03 14:16:17] [info]  [ 7924] Service 'Tomcat9' installed
+[2018-09-03 14:16:17] [info]  [ 7924] Commons Daemon procrun finished
+[2018-09-03 14:16:19] [info]  [ 4600] Commons Daemon procrun (1.1.0.0 32-bit) started
+[2018-09-03 14:16:19] [info]  [ 4600] Updating service...
+[2018-09-03 14:16:19] [info]  [ 4600] Service 'Tomcat9' updated
+[2018-09-03 14:16:19] [info]  [ 4600] Update service finished.
+[2018-09-03 14:16:19] [info]  [ 4600] Commons Daemon procrun finished
+[2018-09-03 14:16:20] [info]  [ 2432] Commons Daemon procrun (1.1.0.0 32-bit) started
+[2018-09-03 14:16:20] [info]  [ 2432] Updating service...
+[2018-09-03 14:16:20] [info]  [ 2432] Service 'Tomcat9' updated
+[2018-09-03 14:16:21] [info]  [ 2432] Update service finished.
+[2018-09-03 14:16:21] [info]  [ 2432] Commons Daemon procrun finished
+[2018-09-03 14:16:21] [info]  [ 7476] Commons Daemon procrun (1.1.0.0 32-bit) started
+[2018-09-03 14:16:21] [info]  [ 7476] Updating service...
+[2018-09-03 14:16:21] [info]  [ 7476] Service 'Tomcat9' updated
+[2018-09-03 14:16:21] [info]  [ 7476] Update service finished.
+[2018-09-03 14:16:21] [info]  [ 7476] Commons Daemon procrun finished
+[2018-09-03 14:16:22] [info]  [ 6908] Commons Daemon procrun (1.1.0.0 32-bit) started
+[2018-09-03 14:16:22] [info]  [ 6908] Updating service...
+[2018-09-03 14:16:22] [info]  [ 6908] Service 'Tomcat9' updated
+[2018-09-03 14:16:22] [info]  [ 6908] Update service finished.
+[2018-09-03 14:16:22] [info]  [ 6908] Commons Daemon procrun finished
+[2018-09-03 14:16:28] [info]  [ 4076] Commons Daemon procrun (1.1.0.0 32-bit) started
+[2018-09-03 14:16:28] [info]  [ 4076] Running 'Tomcat9' Service...
+[2018-09-03 14:16:28] [info]  [ 7208] Starting service...
+[2018-09-03 14:16:31] [info]  [ 7208] Service started in 2635 ms.
+[2018-09-03 17:00:29] [info]  [ 7432] Console SHUTDOWN event signaled
+[2018-09-03 17:00:29] [info]  [ 7432] Stopping service...
+[2018-09-03 17:00:31] [info]  [ 7432] Service stop thread completed.
+[2018-09-03 17:00:32] [info]  [ 4076] Run service finished.
+[2018-09-03 17:00:32] [info]  [ 4076] Commons Daemon procrun finished

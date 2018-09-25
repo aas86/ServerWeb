@@ -1,0 +1,43 @@
+04-Sep-2018 15:12:56.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.11
+04-Sep-2018 15:12:56.908 SEVERE [Thread-3] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:[8005]]. Tomcat may not be running.
+04-Sep-2018 15:12:56.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 11 2018 19:47:23 UTC
+04-Sep-2018 15:12:56.986 SEVERE [Thread-3] org.apache.catalina.startup.Catalina.stopServer Catalina.stop: 
+ java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:403)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:497)
+
+04-Sep-2018 15:12:56.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.11.0
+04-Sep-2018 15:12:56.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+04-Sep-2018 15:12:57.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+04-Sep-2018 15:12:57.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+04-Sep-2018 15:12:57.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_141
+04-Sep-2018 15:12:57.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_141-b15
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 9.0\conf\logging.properties
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+04-Sep-2018 15:12:57.017 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;c:\Program Files\MySQL\MySQL Server 5.7\bin\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_141\bin;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files\IVI Foundation\VISA\WinNT\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\winnt\agvisa;C:\Program Files\JetBrains\apache-maven-3.5.3\bin;C:\Program Files\Keysight\HPP\PAL;C:\Program Files\nodejs\;C:\Users\437-5\AppData\Roaming\npm;.]

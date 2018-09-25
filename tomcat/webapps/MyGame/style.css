@@ -1,0 +1,17 @@
+.login-form{
+    padding: 50px;
+    background: #ccc;
+    position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login {
+    margin: 8px;
+}
+
+.password {
+    margin: 8px;
+}
+
+.buttons{
+    margin-left: 34px;
+}
